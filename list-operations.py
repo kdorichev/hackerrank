@@ -9,7 +9,7 @@ if __name__ == '__main__':
         elif args[0]=='insert':
             lst.insert(int(args[1]),int(args[2]))
         elif args[0]=='remove':
-            lst.remove(args[1])
+            lst.remove(int(args[1]))
         elif args[0]=='append':
             lst.append(int(args[1]))
         elif args[0]=='sort':
