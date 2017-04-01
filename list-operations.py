@@ -7,11 +7,11 @@ if __name__ == '__main__':
         if args[0]=='print':
             print(lst)
         elif args[0]=='insert':
-            lst.insert(int(args[1]),args[2])
+            lst.insert(int(args[1]),int(args[2]))
         elif args[0]=='remove':
             lst.remove(args[1])
         elif args[0]=='append':
-            lst.append(args[1])
+            lst.append(int(args[1]))
         elif args[0]=='sort':
             lst.sort()
         elif args[0]=='pop':
