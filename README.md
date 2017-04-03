@@ -1,2 +1,2 @@
-# hackerrank_30daysOfCode
-30 Days of Code is an opportunity for you to learn how to code or brush up on your fundamentals. Each day
+# hackerrank.com 
+30 days Of Code challenge and other tracks to sharpen your math, thinking and programming skills.
