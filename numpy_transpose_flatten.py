@@ -7,14 +7,15 @@ import numpy as np
 
 (N,M) = map(int,input().split())
 
-array = np.fromfunction(input().split(),(N,M),dtype=int)
+#array = np.fromfunction(input().split(),(N,M),dtype=int)
 
-#array = np.zeros( (N,M) )
+array = np.zeros( (N,M), dtype=int)
 
 line = ""
 
 for i in range(0,N):
     line = input()
-    array = np.vstack(array,line)
+    array[i] = line.split()
 
-print(array)
+print(array.transpose())
+print(array.flatten())
